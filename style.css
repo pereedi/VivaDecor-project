@@ -1,0 +1,639 @@
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    
+}
+
+@media (min-width: 1000px) and (max-width: 1332px) {
+    .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        flex-shrink: 0;
+    }
+
+    .middle {
+        display: flex;
+        justify-content: space-between;
+        flex-shrink: 0;
+    }
+
+    .left {
+        flex-shrink: 0;  
+    }
+
+    .right {
+        flex-shrink: 0;
+    }
+}
+
+.middle {
+    width: 450px; 
+    display: flex; 
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 13px;
+    flex-shrink: 0;
+
+}
+
+.left {
+    padding-left: 80px;
+    flex-shrink: 0;
+}
+
+.left img {
+    height: 30px;
+    
+}
+
+.middle a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.right {
+    flex-shrink: 0;
+}
+
+.right button {
+    background-color: black;
+    color:white;
+    font-family: "Inter", sans-serif;
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.inte-content {
+    padding-left: 80px;
+}
+
+
+.inte-content h3 {
+    font-size: 7em;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.inte-content p {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 100;
+    color:#545454; 
+}
+
+.top-image {
+    width: 400px;
+    height: 330px; 
+    padding-top: 100px;
+}
+
+.inte-D-Flex {
+    display: flex;
+    gap: 60px;
+}
+
+
+.sec-interior-content {
+    padding-left: 80px;
+}
+
+.sec-interior-content button {
+    background-color: black;
+    color:white;
+    font-family: "Inter", sans-serif;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.number-rec {
+    display: flex;
+    gap: 30px;
+}
+
+.border-box {
+    height: 100px;
+     width: 100px; 
+     position: absolute;
+     left: 260px; 
+     top: -95px; 
+     z-index: 1;
+}
+
+.img-box {
+    width: 450px;
+    height: 250px;
+    padding-left: 20px; 
+    position: absolute; 
+    top: -80px; 
+    left: 260px; 
+    z-index: 2;
+    border-radius: 4px;
+}
+
+.Arrow-box {
+    width: 100px;
+    height: 100px; 
+    position: absolute; 
+    left:700px; 
+    top: 70px; 
+    z-index: 3;
+
+}
+
+.number-rec span {
+    font-size: 12px; 
+    font-weight: 100;
+    color: #545454;
+    
+}
+
+.number-rec h1 {
+    font-size: 2.2em;
+    font-weight: 300;
+    color: #545454;
+}
+
+.box-setting {
+    position: relative;
+}
+
+.Our-services {
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-right: 80px;
+    
+}
+
+.f-service {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.f-service h1 {
+    color: #1F1F1F;
+    font-size: 2em;
+}
+
+
+.content-f {
+    display: flex;
+    gap: 45px;
+    
+}
+
+.content-f img {
+    height: 55px;
+    width: 60px;
+}
+
+.p-content h4 {
+   color: #1F1F1F;
+}
+
+.p-content p {
+    font-size: 16px;
+    color: #545454;
+    font-weight: 100;
+}
+
+.design-home {
+     padding-left: 80px;
+      padding-top: 60px;
+}
+
+.f-h-design {
+    display: flex;
+    gap: 80px;
+}
+
+.f-h-design h1 {
+    font-size: 2.5em;
+    margin-top: 0;
+}
+
+.f-h-design p {
+    font-size: 0.8em;
+    color: #545454;
+    padding-bottom: 20px;
+}
+
+.f-h-design img {
+    height: 450px;
+}
+
+.sub-f {
+    display: flex;
+   justify-content: space-between;
+    color:  #1F1F1F;
+}
+
+.sub-f h6 {
+    font-size: 0.8em;
+}
+
+.learn-button {
+    padding-top: 35px;
+}
+
+.learn-button button {
+    background-color: black;
+    color:white;
+    font-family: "Inter", sans-serif;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.f-steps {
+    display: flex;
+    gap: 150px;
+   
+}
+
+.design-steps {
+    padding-top: 100px;
+    padding-left: 80px;
+}
+
+.steps-content h1 {
+    font-size: 2.3em;
+    margin-top: 0;
+    
+}
+
+.flex-c {
+    display: flex;
+    gap: 40px;
+}
+
+.line {
+    height: 50px;
+    width: 1px;
+    background-color: #1F1F1F;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.inner-content p {
+    font-size: 14px;
+}
+
+.comment-page {
+   padding-left: 80px;
+   padding-top: 100px
+   ;
+}
+
+.inti-design {
+    width: 600px; 
+    height: 500px;
+}
+
+.flexcp {
+    display: flex;
+    gap: 80px;
+}
+
+
+
+.flexcp h1 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+.img-testy {
+   width: 400px;
+  height: 400px;
+}
+
+.arrows {
+    display: flex;
+    margin-top: 35px;
+    gap: 20px;
+}
+
+.testimony-f {
+    display: flex;
+    gap: 35px;
+    position: relative;
+    position: absolute; 
+    top: 245px; 
+    left: 300px;
+}
+
+.sophy1 {
+    position: absolute; 
+    top: 260px; 
+    left: 20px;
+}
+
+.james2 {
+    position: absolute;
+    left: 450px; 
+    top:260px;
+}
+
+.subcribecontent {
+    width: 100%;
+    text-align: center;
+}
+
+.subcribecontent h1 {
+    font-size: 2em;
+    color: #1F1F1F;
+}
+
+.subcribecontent p {
+    font-size: 0.9em;
+    color: #545454;
+}
+
+.form-cta {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 700px;
+    margin-left: 380px;
+    margin-top: 50px;
+    
+}
+
+.seach-bar {
+    flex: 1;
+    height: 50px;
+    border-style: solid;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 100px rgb(0 0 0 0.15);
+    border-width: 1px;
+    padding-left: 30px;
+
+}
+
+.seach-bar::placeholder {
+    font-family: font-family "Inter", sans-serif;
+    font-size: 1em;
+    padding-left : 10px; 
+    font-size: 16px;
+}
+
+.subr-button {
+    position: absolute;
+    right: 5px;
+    background-color: black;
+    color:white;
+    font-family: "Inter", sans-serif;
+    border: none;
+    height: 53px;
+    width: 150px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer {
+   background-color: #141414;
+   padding: 70px;
+   margin-top: 50px;
+
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 60px;
+}
+
+.logo-c p {
+    font-size: 0.6em;
+    line-height: 1.2;
+    color: white;
+}
+
+
+.footer-shortcut h3 {
+    font-size: 1em;
+    color: white;
+}
+
+.footer-shortcut ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 0.6em;
+    font-weight: 500;
+    color: white;
+     
+}
+
+.footer-shortcut li {
+    list-style-type: none;
+}
+
+
+
+
+
+
+@media (min-width: 380px) and (max-width: 600px) {
+
+    body {
+   margin: 0;
+    }
+
+  .left img {
+    height: 80px;
+  }
+
+  .middle {
+    display: none;
+  }
+
+  .right {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .inte-content h3 {
+    font-size: 3.5em;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+* {
+
+    margin: 0;
+}
+
+.top-image {
+    width: 400px;
+    height: 300px; 
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+
+}
+
+.inte-D-Flex {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.number-rec {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.box-setting {
+    position: relative;
+
+    
+}
+
+.border-box {
+    height: 50px;
+     width: 50px; 
+     position: absolute;
+     left: 185px; 
+     top: -115px; 
+     z-index: 1;
+}
+
+.img-box {
+    width: 180px;
+    height: 125px;
+    position: absolute; 
+    top: -100px; 
+    left: 180px; 
+    z-index: 2;
+    border-radius: 4px;
+}
+
+.Arrow-box {
+    width: 50px;
+    height: 50px; 
+    position: absolute; 
+    left:350px; 
+    top: -25px; 
+    z-index: 3;
+
+}
+
+.content-f {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    
+}
+
+.f-h-design img {
+    height: 300px;
+} 
+
+.f-h-design {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.f-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 20;
+   
+}
+
+.inti-rio {
+    height: 400px;
+}
+
+.inti-design {
+    width: 300px; 
+    height: 200px;
+}
+
+.flexcp h1 {
+    font-size: 0.6em;
+    margin-top: 0;
+}
+
+.sophy1 {
+    width: 20px;
+    height: 20px;
+    position: absolute; 
+    top: 100px; 
+    left: 10px;
+
+}
+
+.james2 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 170px; 
+    top:100px;
+   
+}
+
+
+.img-testy {
+    width: 150px;
+   height: 150px;
+ }
+
+ .testimony-f {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    position: absolute; 
+    top: 160px; 
+    left: 180px;
+}
+
+.form-cta {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 450px;
+    margin-left: 20px;
+    margin-top: 50px;
+    
+    
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+ 
+}
+
+
+
+}
